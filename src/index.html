@@ -17,7 +17,19 @@
     <h1>Welcome to Cloud Videos</h1>
   </main>
 
-  <button type="button" onclick="moveToSignUp()">Sign Up To Our Site</button>
+  <button type="button" id="supbtn">Sign Up To Our Site</button>
+
+
+
+  <script>
+    document.getElementById("supbtn").addEventListener("click", moveToSignUp);
+
+    function moveToSignUp() {
+    window.location = "./signuppage.html";
+    }
+  </script>
+
+
 
 </body>
 
