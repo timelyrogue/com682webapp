@@ -206,7 +206,7 @@ function validateLoginData(){
 }
 
 function moveToSignUp() {
-  window.location = "./signuppage.html"
+  window.location = "./signuppage.html";
 }
 
 
